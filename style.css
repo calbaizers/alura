@@ -20,6 +20,8 @@ body{
     background-image: url('Background.png');
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -32,7 +34,8 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
-    text-decoration: n;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao2{
     background-color: transparent;
@@ -45,4 +48,26 @@ body{
 .titulo{
     font-size: 28px;
     font-weight: 700;
+}
+.imagem1{
+    margin: 1em 0 2em  0;
+}
+.caixa{
+    margin: 0 6em;
+}
+.imagem2{
+    width: 80%;
+}
+.container2{
+    align-items: center;
+    margin: 0 10em;
+}
+.descrição-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.descrição-text0{
+    margin-bottom: 0.1em;
+    color: var(--cinza-secundario);
 }
