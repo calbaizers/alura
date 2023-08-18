@@ -67,7 +67,14 @@ body{
     font-size: 48px;
     color: var(--branco-principal);
 }
-.descrição-text0{
+.descrição-texto{
     margin-bottom: 0.1em;
     color: var(--cinza-secundario);
+}
+.botao2{
+    display: inline-block;
+    margin-top: 1em;
+}
+.descricao{
+    padding: 1em;
 }
